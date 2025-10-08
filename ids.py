@@ -1,0 +1,16 @@
+a=1
+b=2
+c=3
+d=4
+e=5
+f=6
+g=9
+h=10
+print(id(a))
+print(id(b))
+print(id(c))
+print(id(d))
+print(id(e))
+print(id(f))
+print(id(g))
+print(id(h))
