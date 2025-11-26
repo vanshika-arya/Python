@@ -1,10 +1,10 @@
-n=int(input())
-for i in range(n):
-    num=int(input())
-    rev=0
-    while num>0:
-        temp=num%10
-        rev=(rev*10)+temp
-        print(rev,end=" ")
-        num//10
+t = int(input())
+for i in range(t):
+    n=int(input())
+    if n==0:
+        print("0")
+        continue
+    while n>0:
+        print(n%10,end=" ")
+        n//=10
     print()
